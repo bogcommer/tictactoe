@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 150px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.8  rem;
+}
+
+.grid:hover {
+    background-color: lightgray;
+}
