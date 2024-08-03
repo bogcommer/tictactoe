@@ -4,9 +4,6 @@ function handleClick(event) {
   event.target.textContent = "X";
 }
 
-for (let i = 0; i < gridPiece.length; i++) {
-  gridPiece[i].addEventListener("click", handleClick);
-}
 
 const gameboard = (function () {
   let board = [];
